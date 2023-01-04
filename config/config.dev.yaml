@@ -1,0 +1,11 @@
+db:
+  type: redis
+  host: localhost
+  port: 6379
+  user: redis
+  pass: redis
+  name: 1
+  pool:
+    max_conn: 16
+    min_conn: 4
+    pool_size: 100
